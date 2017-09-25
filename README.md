@@ -3,7 +3,7 @@ Sources for http://wombats-rule.com - A tribute to npm's lovely mascot, and thei
 Note that I have nothing to do with npmjs. As far as I care, they own the copyrights for every wombat out there.
 
 <p align="center">
-  <img src="http://wombats-rule.com/proof.png)" alt="npm's edit profile page"/>
+  <img src="http://wombats-rule.com/proof.png" alt="npm's edit profile page"/>
 </p>
 
 ## Installation & testing
