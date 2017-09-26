@@ -1,18 +1,39 @@
+
+<!DOCTYPE html>
 <html>
     <head>
         <title>Wombats rule!</title>
+        <meta name="description" content="npm's wombat fan page" />
+        <meta name="keywords" content="wombats, wombat" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="og:title" content="Wombats Rule!" />
+        <meta property="og:description" content="npm's wombat fan page" />
+        <meta property="og:image" content="logo.svg" />
+        <meta name="author" content="Eliran Pe'er" />
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23421052-7"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+        
+          gtag('config', 'UA-23421052-7');
+        </script>
+
+        
         <style>
             body {
                 text-align: center;
-                font-family: Lato;
+                font-family: Lato, sans-serif;
             }
             div {
-                position: relative;
+                position: absolute;
                 top: 50%;
-                transform: translateY(-50%);
+                left: 50%;
+                transform: translateY(-50%) translateX(-50%);
             }
             img {
-                width: 40%;
+                width: 100%;
                 display: block;
                 margin: 0 auto;
             }
@@ -21,7 +42,7 @@
     
     <body>
         <div>
-            <img src="logo.svg" title="npm's wombat" />
+            <img src="logo.svg" alt="npm's wombat" title="npm's wombat" />
             This page has nothing to do with <em>npmjs.com</em>. It's nothing but a fan page.
         </div>
     </body>
